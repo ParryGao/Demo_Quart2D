@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D82128241CA6778500CB49D3 /* XBDrawImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D82128231CA6778500CB49D3 /* XBDrawImage.m */; };
+		D82128281CA67C1600CB49D3 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = D82128271CA67C1600CB49D3 /* 3.png */; };
+		D821282A1CA67EEA00CB49D3 /* XBAnimationView.plist in Resources */ = {isa = PBXBuildFile; fileRef = D82128291CA67EEA00CB49D3 /* XBAnimationView.plist */; };
+		D821282D1CA683DA00CB49D3 /* XBShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D821282C1CA683DA00CB49D3 /* XBShowViewController.m */; };
 		D895D58B1C9B9BFB00E7A09B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D895D58A1C9B9BFB00E7A09B /* main.m */; };
 		D895D58E1C9B9BFB00E7A09B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D895D58D1C9B9BFB00E7A09B /* AppDelegate.m */; };
 		D895D5911C9B9BFC00E7A09B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D895D5901C9B9BFC00E7A09B /* ViewController.m */; };
@@ -16,6 +20,12 @@
 		D895D59C1C9B9BFC00E7A09B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D895D59A1C9B9BFC00E7A09B /* LaunchScreen.storyboard */; };
 		D895D5A71C9B9BFC00E7A09B /* Demo_Quart2D__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D895D5A61C9B9BFC00E7A09B /* Demo_Quart2D__Tests.m */; };
 		D895D5B21C9B9BFD00E7A09B /* Demo_Quart2D__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D895D5B11C9B9BFD00E7A09B /* Demo_Quart2D__UITests.m */; };
+		D895D5C11C9B9C4300E7A09B /* XBDrawLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = D895D5C01C9B9C4300E7A09B /* XBDrawLineView.m */; };
+		D895D5C41C9BABFE00E7A09B /* XBDrawSquareView.m in Sources */ = {isa = PBXBuildFile; fileRef = D895D5C31C9BABFE00E7A09B /* XBDrawSquareView.m */; };
+		D895D5C71C9BB0E100E7A09B /* XBDrawEllipseView.m in Sources */ = {isa = PBXBuildFile; fileRef = D895D5C61C9BB0E100E7A09B /* XBDrawEllipseView.m */; };
+		D895D5CA1C9BB4A500E7A09B /* XBDrawCurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = D895D5C91C9BB4A500E7A09B /* XBDrawCurveView.m */; };
+		D895D5CD1C9BD18500E7A09B /* XBDrawTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D895D5CC1C9BD18500E7A09B /* XBDrawTextView.m */; };
+		D8E2163F1CA8DF740032CD13 /* XBDrawColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E2163E1CA8DF740032CD13 /* XBDrawColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D82128221CA6778500CB49D3 /* XBDrawImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBDrawImage.h; sourceTree = "<group>"; };
+		D82128231CA6778500CB49D3 /* XBDrawImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBDrawImage.m; sourceTree = "<group>"; };
+		D82128271CA67C1600CB49D3 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		D82128291CA67EEA00CB49D3 /* XBAnimationView.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = XBAnimationView.plist; sourceTree = "<group>"; };
+		D821282B1CA683DA00CB49D3 /* XBShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBShowViewController.h; sourceTree = "<group>"; };
+		D821282C1CA683DA00CB49D3 /* XBShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBShowViewController.m; sourceTree = "<group>"; };
+		D821282E1CA6869B00CB49D3 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		D895D5861C9B9BFB00E7A09B /* Demo_Quart2D绘图.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo_Quart2D绘图.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D895D58A1C9B9BFB00E7A09B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D895D58C1C9B9BFB00E7A09B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +70,18 @@
 		D895D5AD1C9B9BFC00E7A09B /* Demo_Quart2D绘图UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo_Quart2D绘图UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D895D5B11C9B9BFD00E7A09B /* Demo_Quart2D__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_Quart2D__UITests.m; sourceTree = "<group>"; };
 		D895D5B31C9B9BFD00E7A09B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D895D5BF1C9B9C4300E7A09B /* XBDrawLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBDrawLineView.h; sourceTree = "<group>"; };
+		D895D5C01C9B9C4300E7A09B /* XBDrawLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBDrawLineView.m; sourceTree = "<group>"; };
+		D895D5C21C9BABFE00E7A09B /* XBDrawSquareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBDrawSquareView.h; sourceTree = "<group>"; };
+		D895D5C31C9BABFE00E7A09B /* XBDrawSquareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBDrawSquareView.m; sourceTree = "<group>"; };
+		D895D5C51C9BB0E100E7A09B /* XBDrawEllipseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBDrawEllipseView.h; sourceTree = "<group>"; };
+		D895D5C61C9BB0E100E7A09B /* XBDrawEllipseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBDrawEllipseView.m; sourceTree = "<group>"; };
+		D895D5C81C9BB4A500E7A09B /* XBDrawCurveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBDrawCurveView.h; sourceTree = "<group>"; };
+		D895D5C91C9BB4A500E7A09B /* XBDrawCurveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBDrawCurveView.m; sourceTree = "<group>"; };
+		D895D5CB1C9BD18500E7A09B /* XBDrawTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBDrawTextView.h; sourceTree = "<group>"; };
+		D895D5CC1C9BD18500E7A09B /* XBDrawTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBDrawTextView.m; sourceTree = "<group>"; };
+		D8E2163D1CA8DF740032CD13 /* XBDrawColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBDrawColor.h; sourceTree = "<group>"; };
+		D8E2163E1CA8DF740032CD13 /* XBDrawColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBDrawColor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +136,25 @@
 				D895D58D1C9B9BFB00E7A09B /* AppDelegate.m */,
 				D895D58F1C9B9BFB00E7A09B /* ViewController.h */,
 				D895D5901C9B9BFC00E7A09B /* ViewController.m */,
+				D821282B1CA683DA00CB49D3 /* XBShowViewController.h */,
+				D821282C1CA683DA00CB49D3 /* XBShowViewController.m */,
+				D895D5BF1C9B9C4300E7A09B /* XBDrawLineView.h */,
+				D895D5C01C9B9C4300E7A09B /* XBDrawLineView.m */,
+				D895D5C21C9BABFE00E7A09B /* XBDrawSquareView.h */,
+				D895D5C31C9BABFE00E7A09B /* XBDrawSquareView.m */,
+				D895D5C51C9BB0E100E7A09B /* XBDrawEllipseView.h */,
+				D895D5C61C9BB0E100E7A09B /* XBDrawEllipseView.m */,
+				D895D5C81C9BB4A500E7A09B /* XBDrawCurveView.h */,
+				D895D5C91C9BB4A500E7A09B /* XBDrawCurveView.m */,
+				D895D5CB1C9BD18500E7A09B /* XBDrawTextView.h */,
+				D895D5CC1C9BD18500E7A09B /* XBDrawTextView.m */,
+				D82128221CA6778500CB49D3 /* XBDrawImage.h */,
+				D82128231CA6778500CB49D3 /* XBDrawImage.m */,
+				D8E2163D1CA8DF740032CD13 /* XBDrawColor.h */,
+				D8E2163E1CA8DF740032CD13 /* XBDrawColor.m */,
+				D82128291CA67EEA00CB49D3 /* XBAnimationView.plist */,
+				D821282E1CA6869B00CB49D3 /* PrefixHeader.pch */,
+				D82128271CA67C1600CB49D3 /* 3.png */,
 				D895D5921C9B9BFC00E7A09B /* Main.storyboard */,
 				D895D5981C9B9BFC00E7A09B /* Assets.xcassets */,
 				D895D59A1C9B9BFC00E7A09B /* LaunchScreen.storyboard */,
@@ -251,7 +299,9 @@
 			files = (
 				D895D59C1C9B9BFC00E7A09B /* LaunchScreen.storyboard in Resources */,
 				D895D5991C9B9BFC00E7A09B /* Assets.xcassets in Resources */,
+				D821282A1CA67EEA00CB49D3 /* XBAnimationView.plist in Resources */,
 				D895D5941C9B9BFC00E7A09B /* Main.storyboard in Resources */,
+				D82128281CA67C1600CB49D3 /* 3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,10 +326,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D895D5C71C9BB0E100E7A09B /* XBDrawEllipseView.m in Sources */,
 				D895D5971C9B9BFC00E7A09B /* Demo_Quart2D__.xcdatamodeld in Sources */,
 				D895D5911C9B9BFC00E7A09B /* ViewController.m in Sources */,
 				D895D58E1C9B9BFB00E7A09B /* AppDelegate.m in Sources */,
+				D895D5CA1C9BB4A500E7A09B /* XBDrawCurveView.m in Sources */,
+				D895D5C11C9B9C4300E7A09B /* XBDrawLineView.m in Sources */,
 				D895D58B1C9B9BFB00E7A09B /* main.m in Sources */,
+				D821282D1CA683DA00CB49D3 /* XBShowViewController.m in Sources */,
+				D82128241CA6778500CB49D3 /* XBDrawImage.m in Sources */,
+				D895D5CD1C9BD18500E7A09B /* XBDrawTextView.m in Sources */,
+				D895D5C41C9BABFE00E7A09B /* XBDrawSquareView.m in Sources */,
+				D8E2163F1CA8DF740032CD13 /* XBDrawColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +476,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "${SRCROOT}/Demo_Quart2D绘图/PrefixHeader.pch";
 				INFOPLIST_FILE = "Demo_Quart2D绘图/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-123456.Demo-Quart2D--";
@@ -429,6 +488,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "${SRCROOT}/Demo_Quart2D绘图/PrefixHeader.pch";
 				INFOPLIST_FILE = "Demo_Quart2D绘图/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-123456.Demo-Quart2D--";
@@ -503,6 +563,7 @@
 				D895D5B81C9B9BFD00E7A09B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D895D5B91C9B9BFD00E7A09B /* Build configuration list for PBXNativeTarget "Demo_Quart2D绘图Tests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +572,7 @@
 				D895D5BB1C9B9BFD00E7A09B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D895D5BC1C9B9BFD00E7A09B /* Build configuration list for PBXNativeTarget "Demo_Quart2D绘图UITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +581,7 @@
 				D895D5BE1C9B9BFD00E7A09B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
